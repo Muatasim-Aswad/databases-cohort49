@@ -9,7 +9,6 @@ CREATE TABLE authors (
 
 ALTER TABLE authors
   ADD COLUMN mentor INT,
-  ADD FOREIGN KEY (mentor)
-    REFERENCES authors(author_id)
+  ADD FOREIGN KEY (mentor) REFERENCES authors(author_id)
     ON DELETE SET NULL
     ON UPDATE CASCADE;

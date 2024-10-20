@@ -9,12 +9,10 @@ CREATE TABLE authors_papers (
   author_id INT,
   paper_id INT,
   PRIMARY KEY (author_id, paper_id),
-  FOREIGN KEY (author_id)
-    REFERENCES authors(author_id)
+  FOREIGN KEY (author_id) REFERENCES authors(author_id)
     ON DELETE CASCADE
     ON UPDATE CASCADE,
-  FOREIGN KEY (paper_id)
-    REFERENCES research_papers(paper_id)
+  FOREIGN KEY (paper_id) REFERENCES research_papers(paper_id)
     ON DELETE CASCADE
     ON UPDATE CASCADE
 );
