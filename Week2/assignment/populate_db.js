@@ -3,24 +3,26 @@ import authors from './results_&_dummyData/authors.json' with { type: "json" };
 import papers from './results_&_dummyData/research_papers.json' with { type: "json" };
 
 export default async function main() {
+  const authorsRecordsIds = [];
+  const papersRecordsIds = [];
+
   for (const author of authors) {
-    await addAuthor(author);
+    authorsRecordsIds.push(await addAuthor(author));
   }
 
   for (const paper of papers) {
-    await addPaper(paper);
+    papersRecordsIds.push(await addPaper(paper));
   }
+
+  return { authorsRecordsIds, papersRecordsIds };
 }
 
 async function addAuthor(author) {
   const [result] = await pool.execute(
-    `
-    INSERT IGNORE INTO authors 
-      (author_id, author_name, university, 
-      date_of_birth, h_index, gender, mentor)
-    VALUES
-      (?, ?, ?, ?, ?, ?, ?);
-    `,
+    `INSERT IGNORE INTO authors 
+       (author_id, author_name, university, 
+       date_of_birth, h_index, gender, mentor)
+     VALUES (?, ?, ?, ?, ?, ?, ?);`,
     [
       author.author_id,
       author.author_name,
@@ -43,30 +45,23 @@ async function addPaper(paper) {
 
     //start a connection and transaction
     //transaction ensures that a paper will not be added without being connected to its authors
-
     connection = await pool.getConnection();
     await connection.beginTransaction();
 
     //1-insert the paper
     const [result] = await connection.execute(
-      `
-      INSERT INTO research_papers 
-        (paper_id, paper_title, conference, publish_date)
-      VALUES
-        (?, ?, ?, ?);
-      `,
+      `INSERT INTO research_papers 
+         (paper_id, paper_title, conference, publish_date)
+       VALUES (?, ?, ?, ?);`,
       [paper_id, paper_title, conference, publish_date],
     );
 
     //2- connect the paper with its author(s)
     for (const author_id of authors) {
       await connection.execute(
-        `
-        INSERT INTO authors_papers 
-          (author_id, paper_id)
-        VALUES
-          (?, ?);
-        `,
+        `INSERT INTO authors_papers 
+           (author_id, paper_id)
+         VALUES (?, ?);`,
         [author_id, paper_id],
       );
     }
