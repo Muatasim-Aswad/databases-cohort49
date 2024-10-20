@@ -11,7 +11,6 @@ const recipeDB = await mysql.createConnection({
 
 await recipeDB.connect();
 
-//populate with recipes using add recipe function
 let recipeId;
 
 for (const recipe of recipes) {
@@ -31,11 +30,11 @@ async function addRecipe(title, categories, ingredients, steps) {
   try {
     recipeDB.beginTransaction();
 
-    [recipeId] = await insertAndGetID('recipe', 'name', title);
     let ingredientsIDs = [];
     let categoriesIDs = [];
     let stepsIDs = [];
 
+    [recipeId] = await insertAndGetID('recipe', 'name', title);
     ingredientsIDs = await insertAndGetID('ingredient', 'name', ingredients);
     categoriesIDs = await insertAndGetID('category', 'name', categories);
     stepsIDs = await insertAndGetID('step', 'description', steps);
@@ -76,7 +75,6 @@ async function insertAndGetID(table, field, values) {
 
 async function linkRecipe(bridgeTable, secondField, values) {
   for (const value of values) {
-    console.log(secondField, ':', value , '  RecipeID:', recipeId);
     await recipeDB.execute(
       `
       INSERT INTO ${bridgeTable} (recipe_id, ${secondField})
