@@ -1,0 +1,1460 @@
+[
+  [
+    [
+      {
+        "author": "John Doe",
+        "mentor": null
+      },
+      {
+        "author": "Jane Smith",
+        "mentor": null
+      },
+      {
+        "author": "Alice Johnson",
+        "mentor": null
+      },
+      {
+        "author": "Bob Brown",
+        "mentor": null
+      },
+      {
+        "author": "Carol White",
+        "mentor": null
+      },
+      {
+        "author": "David Green",
+        "mentor": "John Doe"
+      },
+      {
+        "author": "Eva Black",
+        "mentor": "Jane Smith"
+      },
+      {
+        "author": "Frank Blue",
+        "mentor": "Alice Johnson"
+      },
+      {
+        "author": "Grace Red",
+        "mentor": "Bob Brown"
+      },
+      {
+        "author": "Henry Yellow",
+        "mentor": "Carol White"
+      },
+      {
+        "author": "Ivy Purple",
+        "mentor": "John Doe"
+      },
+      {
+        "author": "Jack Orange",
+        "mentor": "Jane Smith"
+      },
+      {
+        "author": "Karen Pink",
+        "mentor": "Alice Johnson"
+      },
+      {
+        "author": "Leo Gray",
+        "mentor": "Bob Brown"
+      },
+      {
+        "author": "Mia Cyan",
+        "mentor": "Carol White"
+      }
+    ],
+    [
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Advances in Quantum Computing"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "5G Networks"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "FinTech Innovations"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "AI in Finance"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Machine Learning in Healthcare"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Home Technologies"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Green Computing"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Digital Health Records"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "AI Ethics and Society"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Big Data Analytics"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Augmented Reality in Education"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Wearable Health Devices"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Cloud Computing Security"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "E-commerce Security"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Blockchain for Supply Chain"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Natural Language Processing"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Virtual Reality for Training"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Digital Twins"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Bioinformatics"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Cybersecurity Trends"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Edge Computing"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Autonomous Vehicles"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Agriculture"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Quantum Cryptography"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Transportation Systems"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "Advances in Quantum Computing"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "5G Networks"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "FinTech Innovations"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "AI in Finance"
+      },
+      {
+        "author_id": 7,
+        "author_name": "Eva Black",
+        "university": "Harvard University",
+        "date_of_birth": "1972-09-24T23:00:00.000Z",
+        "h_index": 60,
+        "gender": "F",
+        "mentor": 2,
+        "paper_title": ""
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Machine Learning in Healthcare"
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Green Computing"
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Human-Computer Interaction"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "IoT in Smart Cities"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "Smart Home Technologies"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "Digital Health Records"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "AI Ethics and Society"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Augmented Reality in Education"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Robotics in Manufacturing"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Smart Grid Technologies"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Big Data Analytics"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Wearable Health Devices"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Cloud Computing Security"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "E-commerce Security"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Blockchain for Supply Chain"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Virtual Reality for Training"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Bioinformatics"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Natural Language Processing"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Digital Twins"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Cybersecurity Trends"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Edge Computing"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Autonomous Vehicles"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Smart Agriculture"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Quantum Cryptography"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Smart Transportation Systems"
+      },
+      {
+        "author_id": 15,
+        "author_name": "Mia Cyan",
+        "university": "University of Oxford",
+        "date_of_birth": "1977-05-08T23:00:00.000Z",
+        "h_index": 53,
+        "gender": "F",
+        "mentor": 5,
+        "paper_title": ""
+      }
+    ],
+    [
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Advances in Quantum Computing"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "5G Networks"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "FinTech Innovations"
+      },
+      {
+        "author_id": 1,
+        "author_name": "John Doe",
+        "university": "Harvard University",
+        "date_of_birth": "1970-01-14T23:00:00.000Z",
+        "h_index": 45,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "AI in Finance"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Machine Learning in Healthcare"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Home Technologies"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Green Computing"
+      },
+      {
+        "author_id": 2,
+        "author_name": "Jane Smith",
+        "university": "Stanford University",
+        "date_of_birth": "1980-05-21T22:00:00.000Z",
+        "h_index": 50,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Digital Health Records"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "AI Ethics and Society"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Big Data Analytics"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Augmented Reality in Education"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Wearable Health Devices"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Cloud Computing Security"
+      },
+      {
+        "author_id": 3,
+        "author_name": "Alice Johnson",
+        "university": "MIT",
+        "date_of_birth": "1975-03-09T23:00:00.000Z",
+        "h_index": 40,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "E-commerce Security"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Blockchain for Supply Chain"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Natural Language Processing"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Virtual Reality for Training"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Digital Twins"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Bioinformatics"
+      },
+      {
+        "author_id": 4,
+        "author_name": "Bob Brown",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1982-07-18T22:00:00.000Z",
+        "h_index": 35,
+        "gender": "M",
+        "mentor": null,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Cybersecurity Trends"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Edge Computing"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Autonomous Vehicles"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Agriculture"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Quantum Cryptography"
+      },
+      {
+        "author_id": 5,
+        "author_name": "Carol White",
+        "university": "University of Oxford",
+        "date_of_birth": "1978-11-29T23:00:00.000Z",
+        "h_index": 55,
+        "gender": "F",
+        "mentor": null,
+        "paper_title": "Smart Transportation Systems"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "Advances in Quantum Computing"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "5G Networks"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "FinTech Innovations"
+      },
+      {
+        "author_id": 6,
+        "author_name": "David Green",
+        "university": "Harvard University",
+        "date_of_birth": "1985-02-13T23:00:00.000Z",
+        "h_index": 30,
+        "gender": "M",
+        "mentor": 1,
+        "paper_title": "AI in Finance"
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Machine Learning in Healthcare"
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Green Computing"
+      },
+      {
+        "author_id": 8,
+        "author_name": "Frank Blue",
+        "university": "Stanford University",
+        "date_of_birth": "1988-12-04T23:00:00.000Z",
+        "h_index": 25,
+        "gender": "M",
+        "mentor": 3,
+        "paper_title": "Human-Computer Interaction"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "IoT in Smart Cities"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "Smart Home Technologies"
+      },
+      {
+        "author_id": 9,
+        "author_name": "Grace Red",
+        "university": "Stanford University",
+        "date_of_birth": "1976-04-17T23:00:00.000Z",
+        "h_index": 48,
+        "gender": "F",
+        "mentor": 4,
+        "paper_title": "Digital Health Records"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "AI Ethics and Society"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Augmented Reality in Education"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Robotics in Manufacturing"
+      },
+      {
+        "author_id": 10,
+        "author_name": "Henry Yellow",
+        "university": "MIT",
+        "date_of_birth": "1983-06-20T22:00:00.000Z",
+        "h_index": 38,
+        "gender": "M",
+        "mentor": 5,
+        "paper_title": "Smart Grid Technologies"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Big Data Analytics"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Wearable Health Devices"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "Cloud Computing Security"
+      },
+      {
+        "author_id": 11,
+        "author_name": "Ivy Purple",
+        "university": "MIT",
+        "date_of_birth": "1979-08-11T23:00:00.000Z",
+        "h_index": 52,
+        "gender": "F",
+        "mentor": 1,
+        "paper_title": "E-commerce Security"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Blockchain for Supply Chain"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Virtual Reality for Training"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Bioinformatics"
+      },
+      {
+        "author_id": 12,
+        "author_name": "Jack Orange",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1981-10-28T23:00:00.000Z",
+        "h_index": 33,
+        "gender": "M",
+        "mentor": 2,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Natural Language Processing"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Digital Twins"
+      },
+      {
+        "author_id": 13,
+        "author_name": "Karen Pink",
+        "university": "University of California, Berkeley",
+        "date_of_birth": "1974-01-06T23:00:00.000Z",
+        "h_index": 47,
+        "gender": "F",
+        "mentor": 3,
+        "paper_title": "Digital Marketing Trends"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Cybersecurity Trends"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Edge Computing"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Autonomous Vehicles"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Smart Agriculture"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Quantum Cryptography"
+      },
+      {
+        "author_id": 14,
+        "author_name": "Leo Gray",
+        "university": "University of Oxford",
+        "date_of_birth": "1986-03-14T23:00:00.000Z",
+        "h_index": 29,
+        "gender": "M",
+        "mentor": 4,
+        "paper_title": "Smart Transportation Systems"
+      }
+    ]
+  ],
+  [
+    [
+      {
+        "paper_id": 1,
+        "paper_title": "Advances in Quantum Computing",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 2,
+        "paper_title": "Machine Learning in Healthcare",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 3,
+        "paper_title": "Blockchain for Supply Chain",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 4,
+        "paper_title": "AI Ethics and Society",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 5,
+        "paper_title": "Cybersecurity Trends",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 6,
+        "paper_title": "IoT in Smart Cities",
+        "num_authors": 1
+      },
+      {
+        "paper_id": 7,
+        "paper_title": "Big Data Analytics",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 8,
+        "paper_title": "Natural Language Processing",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 9,
+        "paper_title": "Edge Computing",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 10,
+        "paper_title": "5G Networks",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 11,
+        "paper_title": "Augmented Reality in Education",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 12,
+        "paper_title": "Virtual Reality for Training",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 13,
+        "paper_title": "Autonomous Vehicles",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 14,
+        "paper_title": "Smart Home Technologies",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 15,
+        "paper_title": "Wearable Health Devices",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 16,
+        "paper_title": "Robotics in Manufacturing",
+        "num_authors": 1
+      },
+      {
+        "paper_id": 17,
+        "paper_title": "Cloud Computing Security",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 18,
+        "paper_title": "Digital Twins",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 19,
+        "paper_title": "Smart Agriculture",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 20,
+        "paper_title": "FinTech Innovations",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 21,
+        "paper_title": "Green Computing",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 22,
+        "paper_title": "Bioinformatics",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 23,
+        "paper_title": "Quantum Cryptography",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 24,
+        "paper_title": "Human-Computer Interaction",
+        "num_authors": 1
+      },
+      {
+        "paper_id": 25,
+        "paper_title": "Digital Health Records",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 26,
+        "paper_title": "Smart Grid Technologies",
+        "num_authors": 1
+      },
+      {
+        "paper_id": 27,
+        "paper_title": "E-commerce Security",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 28,
+        "paper_title": "Digital Marketing Trends",
+        "num_authors": 3
+      },
+      {
+        "paper_id": 29,
+        "paper_title": "Smart Transportation Systems",
+        "num_authors": 2
+      },
+      {
+        "paper_id": 30,
+        "paper_title": "AI in Finance",
+        "num_authors": 2
+      }
+    ],
+    [
+      {
+        "num_papers_females": 20
+      }
+    ],
+    [
+      {
+        "university": "Harvard University",
+        "avg_h_index": "45.0000"
+      },
+      {
+        "university": "Stanford University",
+        "avg_h_index": "41.0000"
+      },
+      {
+        "university": "MIT",
+        "avg_h_index": "43.3333"
+      },
+      {
+        "university": "University of California, Berkeley",
+        "avg_h_index": "38.3333"
+      },
+      {
+        "university": "University of Oxford",
+        "avg_h_index": "45.6667"
+      }
+    ],
+    [
+      {
+        "university": "Harvard University",
+        "number_of_papers": 4
+      },
+      {
+        "university": "MIT",
+        "number_of_papers": 8
+      },
+      {
+        "university": "Stanford University",
+        "number_of_papers": 6
+      },
+      {
+        "university": "University of California, Berkeley",
+        "number_of_papers": 6
+      },
+      {
+        "university": "University of Oxford",
+        "number_of_papers": 6
+      }
+    ],
+    [
+      {
+        "university": "Harvard University",
+        "max_h_index": 60,
+        "min_h_index": 30
+      },
+      {
+        "university": "MIT",
+        "max_h_index": 52,
+        "min_h_index": 38
+      },
+      {
+        "university": "Stanford University",
+        "max_h_index": 50,
+        "min_h_index": 25
+      },
+      {
+        "university": "University of California, Berkeley",
+        "max_h_index": 47,
+        "min_h_index": 33
+      },
+      {
+        "university": "University of Oxford",
+        "max_h_index": 55,
+        "min_h_index": 29
+      }
+    ]
+  ]
+]

@@ -1,0 +1,137 @@
+[
+  {
+    "author_id": 1,
+    "author_name": "John Doe",
+    "university": "Harvard University",
+    "date_of_birth": "1970-01-15",
+    "h_index": 45,
+    "gender": "M",
+    "mentor": null
+  },
+  {
+    "author_id": 2,
+    "author_name": "Jane Smith",
+    "university": "Stanford University",
+    "date_of_birth": "1980-05-22",
+    "h_index": 50,
+    "gender": "F",
+    "mentor": null
+  },
+  {
+    "author_id": 3,
+    "author_name": "Alice Johnson",
+    "university": "MIT",
+    "date_of_birth": "1975-03-10",
+    "h_index": 40,
+    "gender": "F",
+    "mentor": null
+  },
+  {
+    "author_id": 4,
+    "author_name": "Bob Brown",
+    "university": "University of California, Berkeley",
+    "date_of_birth": "1982-07-19",
+    "h_index": 35,
+    "gender": "M",
+    "mentor": null
+  },
+  {
+    "author_id": 5,
+    "author_name": "Carol White",
+    "university": "University of Oxford",
+    "date_of_birth": "1978-11-30",
+    "h_index": 55,
+    "gender": "F",
+    "mentor": null
+  },
+  {
+    "author_id": 6,
+    "author_name": "David Green",
+    "university": "Harvard University",
+    "date_of_birth": "1985-02-14",
+    "h_index": 30,
+    "gender": "M",
+    "mentor": 1
+  },
+  {
+    "author_id": 7,
+    "author_name": "Eva Black",
+    "university": "Harvard University",
+    "date_of_birth": "1972-09-25",
+    "h_index": 60,
+    "gender": "F",
+    "mentor": 2
+  },
+  {
+    "author_id": 8,
+    "author_name": "Frank Blue",
+    "university": "Stanford University",
+    "date_of_birth": "1988-12-05",
+    "h_index": 25,
+    "gender": "M",
+    "mentor": 3
+  },
+  {
+    "author_id": 9,
+    "author_name": "Grace Red",
+    "university": "Stanford University",
+    "date_of_birth": "1976-04-18",
+    "h_index": 48,
+    "gender": "F",
+    "mentor": 4
+  },
+  {
+    "author_id": 10,
+    "author_name": "Henry Yellow",
+    "university": "MIT",
+    "date_of_birth": "1983-06-21",
+    "h_index": 38,
+    "gender": "M",
+    "mentor": 5
+  },
+  {
+    "author_id": 11,
+    "author_name": "Ivy Purple",
+    "university": "MIT",
+    "date_of_birth": "1979-08-12",
+    "h_index": 52,
+    "gender": "F",
+    "mentor": 1
+  },
+  {
+    "author_id": 12,
+    "author_name": "Jack Orange",
+    "university": "University of California, Berkeley",
+    "date_of_birth": "1981-10-29",
+    "h_index": 33,
+    "gender": "M",
+    "mentor": 2
+  },
+  {
+    "author_id": 13,
+    "author_name": "Karen Pink",
+    "university": "University of California, Berkeley",
+    "date_of_birth": "1974-01-07",
+    "h_index": 47,
+    "gender": "F",
+    "mentor": 3
+  },
+  {
+    "author_id": 14,
+    "author_name": "Leo Gray",
+    "university": "University of Oxford",
+    "date_of_birth": "1986-03-15",
+    "h_index": 29,
+    "gender": "M",
+    "mentor": 4
+  },
+  {
+    "author_id": 15,
+    "author_name": "Mia Cyan",
+    "university": "University of Oxford",
+    "date_of_birth": "1977-05-09",
+    "h_index": 53,
+    "gender": "F",
+    "mentor": 5
+  }
+]

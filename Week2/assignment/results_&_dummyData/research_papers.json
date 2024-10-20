@@ -1,0 +1,212 @@
+[
+  {
+    "paper_id": 1,
+    "paper_title": "Advances in Quantum Computing",
+    "conference": "QCon 2023",
+    "publish_date": "2023-01-15",
+    "authors": [1, 6]
+  },
+  {
+    "paper_id": 2,
+    "paper_title": "Machine Learning in Healthcare",
+    "conference": "HealthTech 2023",
+    "publish_date": "2023-02-20",
+    "authors": [2, 8]
+  },
+  {
+    "paper_id": 3,
+    "paper_title": "Blockchain for Supply Chain",
+    "conference": "Blockchain Expo 2023",
+    "publish_date": "2023-03-10",
+    "authors": [4, 12]
+  },
+  {
+    "paper_id": 4,
+    "paper_title": "AI Ethics and Society",
+    "conference": "AI Summit 2023",
+    "publish_date": "2023-04-05",
+    "authors": [3, 10]
+  },
+  {
+    "paper_id": 5,
+    "paper_title": "Cybersecurity Trends",
+    "conference": "CyberCon 2023",
+    "publish_date": "2023-05-12",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 6,
+    "paper_title": "IoT in Smart Cities",
+    "conference": "IoT World 2023",
+    "publish_date": "2023-06-18",
+    "authors": [9]
+  },
+  {
+    "paper_id": 7,
+    "paper_title": "Big Data Analytics",
+    "conference": "DataCon 2023",
+    "publish_date": "2023-07-22",
+    "authors": [3, 11]
+  },
+  {
+    "paper_id": 8,
+    "paper_title": "Natural Language Processing",
+    "conference": "NLP Summit 2023",
+    "publish_date": "2023-08-30",
+    "authors": [4, 13]
+  },
+  {
+    "paper_id": 9,
+    "paper_title": "Edge Computing",
+    "conference": "EdgeCon 2023",
+    "publish_date": "2023-09-15",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 10,
+    "paper_title": "5G Networks",
+    "conference": "5G World 2023",
+    "publish_date": "2023-10-10",
+    "authors": [1, 6]
+  },
+  {
+    "paper_id": 11,
+    "paper_title": "Augmented Reality in Education",
+    "conference": "EdTech 2023",
+    "publish_date": "2023-11-05",
+    "authors": [3, 10]
+  },
+  {
+    "paper_id": 12,
+    "paper_title": "Virtual Reality for Training",
+    "conference": "VR Summit 2023",
+    "publish_date": "2023-12-01",
+    "authors": [4, 12]
+  },
+  {
+    "paper_id": 13,
+    "paper_title": "Autonomous Vehicles",
+    "conference": "AutoTech 2023",
+    "publish_date": "2023-01-25",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 14,
+    "paper_title": "Smart Home Technologies",
+    "conference": "SmartHome Expo 2023",
+    "publish_date": "2023-02-15",
+    "authors": [2, 9]
+  },
+  {
+    "paper_id": 15,
+    "paper_title": "Wearable Health Devices",
+    "conference": "WearableTech 2023",
+    "publish_date": "2023-03-05",
+    "authors": [3, 11]
+  },
+  {
+    "paper_id": 16,
+    "paper_title": "Robotics in Manufacturing",
+    "conference": "RoboCon 2023",
+    "publish_date": "2023-04-20",
+    "authors": [10]
+  },
+  {
+    "paper_id": 17,
+    "paper_title": "Cloud Computing Security",
+    "conference": "CloudSec 2023",
+    "publish_date": "2023-05-25",
+    "authors": [3, 11]
+  },
+  {
+    "paper_id": 18,
+    "paper_title": "Digital Twins",
+    "conference": "DigitalTwin Expo 2023",
+    "publish_date": "2023-06-30",
+    "authors": [4, 13]
+  },
+  {
+    "paper_id": 19,
+    "paper_title": "Smart Agriculture",
+    "conference": "AgriTech 2023",
+    "publish_date": "2023-07-15",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 20,
+    "paper_title": "FinTech Innovations",
+    "conference": "FinTech Summit 2023",
+    "publish_date": "2023-08-10",
+    "authors": [1, 6]
+  },
+  {
+    "paper_id": 21,
+    "paper_title": "Green Computing",
+    "conference": "GreenTech 2023",
+    "publish_date": "2023-09-05",
+    "authors": [2, 8]
+  },
+  {
+    "paper_id": 22,
+    "paper_title": "Bioinformatics",
+    "conference": "BioInfo 2023",
+    "publish_date": "2023-10-01",
+    "authors": [4, 12]
+  },
+  {
+    "paper_id": 23,
+    "paper_title": "Quantum Cryptography",
+    "conference": "CryptoCon 2023",
+    "publish_date": "2023-11-20",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 24,
+    "paper_title": "Human-Computer Interaction",
+    "conference": "HCI Summit 2023",
+    "publish_date": "2023-12-15",
+    "authors": [8]
+  },
+  {
+    "paper_id": 25,
+    "paper_title": "Digital Health Records",
+    "conference": "HealthIT 2023",
+    "publish_date": "2023-01-10",
+    "authors": [2, 9]
+  },
+  {
+    "paper_id": 26,
+    "paper_title": "Smart Grid Technologies",
+    "conference": "EnergyTech 2023",
+    "publish_date": "2023-02-05",
+    "authors": [10]
+  },
+  {
+    "paper_id": 27,
+    "paper_title": "E-commerce Security",
+    "conference": "EcomSec 2023",
+    "publish_date": "2023-03-01",
+    "authors": [3, 11]
+  },
+  {
+    "paper_id": 28,
+    "paper_title": "Digital Marketing Trends",
+    "conference": "DigiMarCon 2023",
+    "publish_date": "2023-04-15",
+    "authors": [4, 12, 13]
+  },
+  {
+    "paper_id": 29,
+    "paper_title": "Smart Transportation Systems",
+    "conference": "TranspoTech 2023",
+    "publish_date": "2023-05-10",
+    "authors": [5, 14]
+  },
+  {
+    "paper_id": 30,
+    "paper_title": "AI in Finance",
+    "conference": "AIFinance 2023",
+    "publish_date": "2023-06-05",
+    "authors": [1, 6]
+  }
+]
