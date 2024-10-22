@@ -1,4 +1,5 @@
 import mysql from 'mysql2/promise';
+import fs from 'fs/promises';
 
 const serverConnection = await mysql.createConnection({
   host: 'localhost',
@@ -43,5 +44,7 @@ const [results] = await serverConnection.query(`
   SELECT SUM(population) AS world_population
   FROM country;
 `);
+
+await fs.writeFile('ex2_results.json', JSON.stringify(results, null, 2));
 
 serverConnection.end();
