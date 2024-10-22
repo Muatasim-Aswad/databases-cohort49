@@ -1,0 +1,49 @@
+
+Q1: what columns violate 1NF?
+A1: 
+- 1NF:
+food_code and food_description columns contain multiple values in
+a single cell.
+
+While dinner_date only hold dates, dates seem to be in different formats
+indicating using different data types(domains) to store the date. (not sure)
+
+- even though in order to examine xNF the table needs to first satisfy (x-1)NF
+we can see directly that the db will still violate other xNFs even after solving 
+the above problem:
+* the minimal candidate/super key is (member_id, dinner_id)
+
+- 2NF: partial dependencies problem
+  member_id => member_name, member_address
+  dinner_id => dinner_date
+
+- 3NF: transitive dependencies problem
+  dinner_id => venue_code And venue_code => venue_description
+  dinner_id => food_code And food_code => food_description
+
+3.5NF: I do not see any relationship where a determinant is not a super key.
+4NF: I do not see any A ->-> B where B is independent of the other attributes.
+
+I am not sure that my understanding of 3.5 and 4 is right :)
+
+###############################################################
+
+Q2: What entities do you recognize that could be extracted?
+Q3:Name all the tables and columns that would make a 3NF compliant solution.
+
+A2 & A3: proposed tables/entities and fields with defining the relationships
+using foreign keys: 
+F:foreign P:primary K:key
+
+- Venue (PK/venue_code, venue_description)
+- Member (PK/member_id, member_name, member_address)
+- Dinner (PK/dinner_id, dinner_date, FK/venue_code)
+- Food (PK/food_code, food_description)
+
+- Member_Dinner (PK/ (FK/member_id, FK/dinner_id))
+
+- Dinner_Food (PK/ (FK/dinner_id, FK/food_code))
+
+
+
+

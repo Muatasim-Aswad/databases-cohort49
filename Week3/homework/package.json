@@ -1,0 +1,17 @@
+{
+  "name": "homework",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node --env-file=.env ./mongodb/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "mongodb": "^6.10.0",
+    "mysql2": "^3.11.3"
+  }
+}
