@@ -1,0 +1,9 @@
+(node:11820) [MODULE_TYPELESS_PACKAGE_JSON] Warning: file:///C:/Users/malas/Downloads/web_dev/practices/hyf/databases-cohort49/Week3/prep_exercise/index.js parsed as an ES module because module syntax was detected; to avoid the performance penalty of syntax detection, add "type": "module" to C:\Users\malas\Downloads\web_dev\practices\hyf\databases-cohort49\Week3\prep_exercise\package.json
+(Use `node --trace-warnings ...` to show where the warning was created)
+(node:11820) ExperimentalWarning: Importing JSON modules is an experimental feature and might change at any time
+[
+  new ObjectId('672616c2915b8c2516b5779f'),
+  new ObjectId('672616c2915b8c2516b577a0'),
+  new ObjectId('672616c2915b8c2516b577a1'),
+  new ObjectId('672616c3915b8c2516b577a4')
+]
